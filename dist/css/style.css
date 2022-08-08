@@ -1,0 +1,35 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "MuseoModerno", normal;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.no-webp .promo {
+  background: url(../img/bg_section_1.jpg) center center/cover no-repeat; }
+
+.promo {
+  min-height: 650px;
+  width: 100%;
+}
+
+.promo header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.webp .promo { background: url(../img/bg_section_1.webp) center center/cover no-repeat; }
