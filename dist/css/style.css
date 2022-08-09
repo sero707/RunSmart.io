@@ -3,7 +3,7 @@ body {
           box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "MuseoModerno", normal;
+  font-family: "MuseoModerno", sans-serif;
 }
 
 .container {
@@ -14,12 +14,31 @@ body {
   padding: 0 100px;
 }
 
+.button {
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #C70101;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 7px;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.button:hover {
+  background-color: #FF0000;
+}
+
 .no-webp .promo {
   background: url(../img/bg_section_1.jpg) center center/cover no-repeat; }
 
 .promo {
   min-height: 650px;
   width: 100%;
+  padding: 21px 0 0 0;
 }
 
 .promo header {
@@ -30,6 +49,150 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.promo__logo {
+  max-width: 251px;
+  max-height: 45px;
+}
+
+.promo__logo img {
+  width: 100%;
+}
+
+.promo__representative {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.promo__representative span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.promo__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promo__telephone {
+  color: #fff;
+  text-decoration: none;
+}
+
+.promo__button {
+  font-size: 12px;
+  padding: 9px 22.5px;
+  margin-top: 4px;
+}
+
+.promo_content {
+  margin-top: 91px;
+}
+
+.promo_content h1,
+.promo_content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.promo_content h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 17px;
+}
+
+.promo__icons {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.promo__icon {
+  width: 120px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.promo__icon img {
+  width: 42px;
+  height: 45px;
+}
+
+.promo__icon .promo__text {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.promo__but-catalog {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.promo__cat-button {
+  padding: 18px 43.5px;
+  font-size: 16px;
+}
+
+.promo_wrapper {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.promo_wrapper a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.promo_wrapper a:hover {
+  color: #0D0D0D;
 }
 
 .webp .promo { background: url(../img/bg_section_1.webp) center center/cover no-repeat; }
