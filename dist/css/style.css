@@ -1,4 +1,4 @@
-body {
+* {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
@@ -30,6 +30,14 @@ body {
 
 .button:hover {
   background-color: #FF0000;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #0D0D0D;
 }
 
 .no-webp .promo {
@@ -193,6 +201,67 @@ body {
 
 .promo_wrapper a:hover {
   color: #0D0D0D;
+}
+
+.benefits {
+  min-height: 470px;
+  padding-top: 71px;
+  width: 100%;
+}
+
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 60px auto 0;
+  text-align: center;
+  max-width: 936px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #0D0D0D;
+}
+
+.benefits__item {
+  max-width: 235px;
+}
+
+.benefits__img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.benefits__img img {
+  width: 100%;
+}
+
+.benefits__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.benefits__text h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  color: #0D0D0D;
+  margin: 35px 0 20px 0;
+}
+
+.benefits__text a {
+  color: #FF0000;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.benefits__text a:hover {
+  color: #C70101;
 }
 
 .webp .promo { background: url(../img/bg_section_1.webp) center center/cover no-repeat; }
