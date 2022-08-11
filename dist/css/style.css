@@ -12,6 +12,7 @@
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 100px;
+  position: relative;
 }
 
 .button {
@@ -61,6 +62,29 @@
   color: #FFFFFF;
   text-align: left;
   text-transform: none;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  width: 31px;
+  height: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -68px;
+  z-index: 2;
+}
+
+.slick-next {
+  -webkit-transform: rotateY(3.142rad);
+          transform: rotateY(3.142rad);
+  left: auto;
+  right: -68px;
 }
 
 .no-webp .promo {
@@ -324,6 +348,31 @@
 
 .call-back .call-back-forma form input:nth-child(3) {
   margin-bottom: 17px;
+}
+
+.slider {
+  padding: 108px 0;
+}
+
+.slider__slider {
+  width: 750px;
+  margin: 0 auto;
+  border: none;
+}
+
+.slider__slider div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider__slider div img {
+  display: block;
+  width: 100%;
 }
 
 .webp .promo { background: url(../img/bg_section_1.webp) center center/cover no-repeat; }
