@@ -2,4 +2,3 @@ node_modules
 gulp
 *.json
 gulpfile.js
-src

@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'MuseoModerno', sans-serif;
+}
+@import "components/_variable.scss";
+@import "components/_const.scss";
+@import "sections/promo.scss";
+@import "sections/benefits.scss";
+@import "sections/call-back.scss";
+@import "sections/slider.scss";

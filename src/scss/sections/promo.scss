@@ -1,0 +1,110 @@
+.promo{
+    min-height: 650px;
+    width: 100%;
+    background: url(../img/bg_section_1.jpg) center (center/cover) no-repeat;
+    padding: 21px 0 0 0;
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    &__logo{
+        max-width: 251px;
+        max-height: 45px;
+        img{
+            width: 100%;
+        }
+        }
+    &__representative{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        span{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+    &__phone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__telephone{
+        color: #fff;
+        text-decoration: none;
+    }
+    &__button{
+        font-size: 12px;
+        padding: 9px 22.5px;
+        margin-top: 4px;
+    }
+    &_content{
+        margin-top: 91px;
+        h1, h2{
+            font-weight: 700;
+            font-size: 42px;
+            text-align: right;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin: 0;
+        }
+        h2{
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 17px;
+        }
+    }
+    &__icons{
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    &__icon{
+        width: 120px;
+        margin-left: 40px;
+        text-align: center;
+        img{
+            width: 42px;
+            height: 45px;
+        }
+        .promo__text{
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            color: #FFFFFF;
+            user-select: none;
+        }
+    }
+    &__but-catalog{
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__cat-button{
+        padding: 18px 43.5px;
+        font-size: 16px;
+    }
+    &_wrapper{
+        margin-top: 8px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        a{
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 16px;
+            transition: .3s all;
+            &:hover{
+                color:$main-text-color;
+            }
+        }
+    }
+}
