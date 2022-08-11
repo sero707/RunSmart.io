@@ -3,3 +3,4 @@ gulp
 *.json
 gulpfile.js
 src
+dist
