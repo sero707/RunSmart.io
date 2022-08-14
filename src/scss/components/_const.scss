@@ -5,6 +5,7 @@
     padding: 0 100px;
     position: relative;
 }
+
 .button{
     display: block;
     color: #fff;
@@ -15,6 +16,7 @@
     text-align: center;
     border-radius: 7px;
     transition: .3s all;
+    cursor: pointer;
     &_form{
         border: none;
         height: 58px;
@@ -23,7 +25,6 @@
     &:hover{
         background-color: $second-text-color;
     }
-
 }
 .title{
     margin: 0;
@@ -63,4 +64,22 @@
     transform: rotateY(3.142rad);
     left: auto;
     right: -68px;
+}
+
+@media (max-width: 767px){
+    .container{
+        padding: 0 40px;
+    }
+}
+@media (max-width: 479px){
+    .container{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 991px){
+    .button{
+        &:hover{
+            background-color: $main-color;
+        }
+    }
 }
