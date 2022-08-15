@@ -274,7 +274,7 @@
 }
 
 .benefits__item {
-  max-width: 235px;
+  width: 235px;
 }
 
 .benefits__img {
@@ -480,6 +480,63 @@
   .promo_wrapper a:hover {
     color: #fff;
   }
+
+  .benefits {
+    padding: 40px 0;
+  }
+
+  .benefits__title {
+    font-size: 15px;
+  }
+
+  .benefits__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .benefits__item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+  }
+
+  .benefits__text {
+    display: block;
+    width: 70%;
+    text-align: left;
+    font-size: 11px;
+  }
+
+  .benefits__text h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .benefits__text a:hover {
+    color: #FF0000;
+  }
+
+  .benefits__img {
+    min-width: 50px;
+    min-height: 45px;
+    max-width: 50px;
+    max-height: 45px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -568,6 +625,62 @@
   .promo_wrapper a:hover {
     color: #fff;
   }
+
+  .benefits {
+    padding-bottom: 50px;
+  }
+
+  .benefits__title {
+    font-size: 22px;
+  }
+
+  .benefits__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .benefits__item {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px;
+  }
+
+  .benefits__text {
+    display: block;
+    width: 70%;
+    text-align: left;
+  }
+
+  .benefits__text h3 {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .benefits__text a:hover {
+    color: #FF0000;
+  }
+
+  .benefits__img {
+    min-width: 70px;
+    min-height: 65px;
+    max-width: 70px;
+    max-height: 65px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
@@ -650,6 +763,89 @@
 
   .promo_wrapper a:hover {
     color: #fff;
+  }
+
+  .benefits {
+    padding-bottom: 50px;
+  }
+
+  .benefits__title {
+    font-size: 18px;
+  }
+
+  .benefits__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .benefits__item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px;
+  }
+
+  .benefits__text {
+    display: block;
+    width: 70%;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .benefits__text h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .benefits__text a:hover {
+    color: #FF0000;
+  }
+
+  .benefits__img {
+    min-width: 60px;
+    min-height: 55px;
+    max-width: 60px;
+    max-height: 55px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 925px) {
+  .benefits__title {
+    font-size: 26px;
+  }
+
+  .benefits__item {
+    max-width: 170px;
+  }
+
+  .benefits__list {
+    margin-top: 50px;
+  }
+
+  .benefits__text {
+    font-size: 12px;
+  }
+
+  .benefits__text h3 {
+    font-size: 15px;
+  }
+
+  .benefits__text a:hover {
+    color: #FF0000;
   }
 }
 
