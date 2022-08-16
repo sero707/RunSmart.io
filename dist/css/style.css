@@ -394,6 +394,12 @@
   }
 }
 
+@media (max-width: 350px) {
+  .call-back .call-back-forma form {
+    width: 90%;
+  }
+}
+
 @media (max-width: 320px) {
   .promo header {
     -webkit-box-orient: vertical;
@@ -536,6 +542,30 @@
     min-height: 45px;
     max-width: 50px;
     max-height: 45px;
+  }
+
+  .call-back .call-back-forma form {
+    width: 100%;
+    margin: 36px auto;
+  }
+
+  .call-back .call-back-forma form input {
+    height: 34px;
+  }
+
+  .title_call-back {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .title_form {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .button_form {
+    height: 38px;
+    font-size: 14px;
   }
 }
 
@@ -681,6 +711,28 @@
     max-width: 70px;
     max-height: 65px;
   }
+
+  .call-back .call-back-forma form {
+    margin: 36px auto;
+  }
+
+  .call-back .call-back-forma form input {
+    height: 44px;
+  }
+
+  .title_call-back {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .title_form {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .button_form {
+    height: 48px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
@@ -821,6 +873,29 @@
     max-width: 60px;
     max-height: 55px;
   }
+
+  .call-back .call-back-forma form {
+    margin: 36px auto;
+  }
+
+  .call-back .call-back-forma form input {
+    height: 44px;
+  }
+
+  .title_call-back {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .title_form {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .button_form {
+    height: 48px;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 925px) {
@@ -846,6 +921,24 @@
 
   .benefits__text a:hover {
     color: #FF0000;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .call-back .call-back-forma form input {
+    height: 44px;
+  }
+
+  .title_call-back {
+    font-size: 26px;
+  }
+
+  .title_form {
+    font-size: 17px;
+  }
+
+  .button_form {
+    height: 48px;
   }
 }
 
