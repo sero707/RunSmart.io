@@ -4,7 +4,7 @@ flsFunction.isWebp();
 
 $(document).ready(function(){
     $('.slider__slider').slick({
-        speed: 1200,
+        speed: 500,
         autoplay: true,
         autoplaySpeed: 3000,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/icon/array.png"></button>',
