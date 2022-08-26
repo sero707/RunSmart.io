@@ -446,12 +446,28 @@
   border: none;
 }
 
+.catalog__content {
+  display: none;
+}
+
+.catalog__content_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .catalog-item {
   max-width: 303px;
   min-height: 442px;
   border: 2px solid #E8E8E8;
   padding: 20px 18px 21px;
   overflow: hidden;
+  margin: 0 5px 12px;
 }
 
 .catalog-item_img {

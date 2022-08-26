@@ -41,4 +41,12 @@
             }
         }
     }
+    &__content{
+        display: none;
+        &_active{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
 }
