@@ -669,11 +669,19 @@
   .container {
     padding: 0 40px;
   }
+
+  .title_catalog {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 479px) {
   .container {
     padding: 0 20px;
+  }
+
+  .title_catalog {
+    font-size: 18px;
   }
 }
 
@@ -1016,6 +1024,10 @@
   .button_form {
     height: 48px;
   }
+
+  .catalog__tabs li {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
@@ -1178,6 +1190,11 @@
   .button_form {
     height: 48px;
     font-size: 14px;
+  }
+
+  .catalog__tabs li {
+    font-size: 12px;
+    text-align: center;
   }
 }
 
