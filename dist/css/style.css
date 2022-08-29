@@ -690,6 +690,22 @@
   color: #0D0D0D;
 }
 
+.footer {
+  position: relative;
+}
+
+.footer__info {
+  background-color: #C70101;
+  width: 460px;
+  height: 270px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 @media (max-width: 1023px) {
   .slick-dots {
     display: -webkit-box;

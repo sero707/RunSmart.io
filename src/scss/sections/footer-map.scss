@@ -1,0 +1,12 @@
+.footer{
+    position: relative;
+    &__info{
+        background-color: $main-color;
+        width: 460px;
+        height: 270px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
