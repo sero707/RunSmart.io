@@ -1,4 +1,9 @@
 .reviews{
     min-height: 1079px;
     padding-top: 79px;
+    &__clients{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
