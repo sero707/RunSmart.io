@@ -627,6 +627,11 @@
   color: #C70101;
 }
 
+.reviews {
+  min-height: 1079px;
+  padding-top: 79px;
+}
+
 @media (max-width: 1023px) {
   .slick-dots {
     display: -webkit-box;
