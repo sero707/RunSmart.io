@@ -1,0 +1,91 @@
+.overlay{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.56);
+    top: 0;
+    display: none;
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 382px;
+    min-height: 402px;
+    background: #F2F2F2;
+    padding: 35px 40px 40px;
+    &_mini{
+        min-height: 143px;
+    }
+    &__close{
+        position: absolute;
+        top: -10px;
+        right: -40px;
+        font-size: 50px;
+        line-height: 50px;
+        color: $main-color;
+        cursor: pointer;
+        transition: 0.3s all;
+        &:hover{
+            color: $second-text-color;
+        }
+    }
+    &__subtitle{
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: $main-text-color;
+    }
+    &__description{
+
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        color: $main-text-color;
+        margin-top: 10px;
+    }
+    form{
+        margin-top: 26px;
+        margin-bottom: 0;
+    }
+}
+
+#order, #consultation, #thanks{
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .modal{
+        min-height: 302px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .modal{
+        &__close{
+            &:hover{
+                color: $main-color;
+            }
+        }
+    }  
+}
+
+@media (max-width: 480px) {
+    .modal{
+        padding: 15px 20px 20px;
+        min-height: 252px;
+        &__close{
+            right: 0;
+        }
+        &__subtitle{
+            font-size: 15px;
+        }
+        &__description{
+            font-size: 13px;
+        }
+        form{
+            margin-bottom: 0;
+        }
+    }
+}

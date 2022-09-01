@@ -37,4 +37,19 @@ $(document).ready(function(){
     }
     toogleSlide('.catalog-item_moree');
     toogleSlide('.catalog-item__back');
+
+    $('[data-modal=consultation]').on('click', function() {
+      $('.overlay, #consultation').fadeIn('slow');
+    });
+    $('.modal__close').on('click', function() {
+      $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+    });
+    $('.button_catalog-item').each(function(i) {
+      $(this).on('click', function() {
+        $('#order .modal__description').text($('.catalog-item_title').eq(i).text());
+        $('.overlay, #order').fadeIn('slow');
+      });
+    });
+
   });
+  
