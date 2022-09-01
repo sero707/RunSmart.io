@@ -4,9 +4,9 @@
         <div class="modal__subtitle">Просто заполните форму заявки</div>
         <div class="modal__description">и мы перезвоним вам в течении 10 минут</div>
         <div class="call-back-forma">
-            <form action="#">
+            <form id="consultation-form" action="#">
                 <input type="text" name="name" placeholder="Ваше имя">
-                <input type="tel" name="telephone" placeholder="Ваш телефон">
+                <input type="number" name="telephone" placeholder="Ваш телефон">
                 <input type="email" name="email" placeholder="Ваш E-maill">
                 <button class="button button_form">Заказать консультацию</button>
             </form>
@@ -17,10 +17,10 @@
         <div class="modal__subtitle">Ваш заказ:</div>
         <div class="modal__description">Пульсометр Polar FT1</div>
         <div class="call-back-forma">
-            <form action="#">
-                <input type="text" name="name" placeholder="Ваше имя">
-                <input type="tel" name="telephone" placeholder="Ваш телефон">
-                <input type="email" name="email" placeholder="Ваш E-maill">
+            <form id="order-form" action="#">
+                <input type="text" required name="name" placeholder="Ваше имя">
+                <input type="number" required name="telephone" placeholder="Ваш телефон">
+                <input type="email" required name="email" placeholder="Ваш E-maill">
                 <button class="button button_form">Купить</button>
             </form>
         </div>

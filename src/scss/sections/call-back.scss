@@ -23,6 +23,16 @@
                 margin-bottom: 17px;
             }
         }
+        .error{
+            text-align: center;
+            margin-bottom: 11px;
+            border: 1px solid $main-color;
+        }
+        label.error{
+            border: none;
+            font-weight: bold;
+            color: #fff;
+        }
     }
 }
 @media (min-width: 768px) and (max-width: 1199px) {

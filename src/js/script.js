@@ -51,5 +51,68 @@ $(document).ready(function(){
       });
     });
 
+    $('#call-back-forma').validate({
+      rules: {
+        name:{
+          required: true,
+          minlength: 2
+        },
+        telephone: "required",
+        email:{
+          required: true,
+          email: true
+        }
+      },
+      messages:{
+        name: "Введите ваше имя",
+        telephone: "Введите телефон",
+        email:{
+          required: "Введите свой почтовый адрес",
+          email: "Неправильно введён адрес"
+        }
+      }
+    });
+    $('#consultation-form').validate({
+      rules: {
+        name:{
+          required: true,
+          minlength: 2
+        },
+        telephone: "required",
+        email:{
+          required: true,
+          email: true
+        }
+      },
+      messages:{
+        name: "Введите ваше имя",
+        telephone: "Введите телефон",
+        email:{
+          required: "Введите свой почтовый адрес",
+          email: "Неправильно введён адрес"
+        }
+      }
+    });
+    $('#order-form').validate({
+      rules: {
+        name:{
+          required: true,
+          minlength: 2
+        },
+        telephone: "required",
+        email:{
+          required: true,
+          email: true
+        }
+      },
+      messages:{
+        name: "Введите ваше имя",
+        telephone: "Введите телефон",
+        email:{
+          required: "Введите свой почтовый адрес",
+          email: "Неправильно введён адрес"
+        }
+      }
+    });
   });
   
