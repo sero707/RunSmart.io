@@ -360,12 +360,13 @@
 }
 
 .call-back-forma form .error {
-  text-align: center;
+  text-align: left;
   margin-bottom: 11px;
   border: 1px solid #C70101;
 }
 
 .call-back-forma form label.error {
+  text-align: center;
   border: none;
   font-weight: bold;
   color: #fff;
@@ -835,12 +836,13 @@
 }
 
 .modal form .error {
-  text-align: center;
+  text-align: left;
   margin-bottom: 11px;
   border: 1px solid #C70101;
 }
 
 .modal form label.error {
+  text-align: center;
   border: none;
   font-weight: bold;
   color: #000000;
