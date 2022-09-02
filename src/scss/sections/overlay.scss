@@ -49,11 +49,12 @@
         margin-top: 26px;
         margin-bottom: 0;
         .error{
-            text-align: center;
+            text-align: left;
             margin-bottom: 11px;
             border: 1px solid $main-color;
         }
         label.error{
+            text-align: center;
             border: none;
             font-weight: bold;
             color: #000000;
