@@ -1,0 +1,17 @@
+.arrow-up{
+    border: 3px solid $main-color;
+    border-radius: 100%;
+    display: none;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    img{
+        display: block;
+        width: 16px;
+        height: 35px;
+        transform: rotateZ(90deg);
+        margin: 0 auto;
+    }
+}

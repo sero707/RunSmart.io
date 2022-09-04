@@ -831,6 +831,7 @@
 }
 
 .modal form {
+  position: relative;
   margin-top: 26px;
   margin-bottom: 0;
 }
@@ -852,6 +853,27 @@
 #consultation,
 #thanks {
   display: none;
+}
+
+.arrow-up {
+  border: 3px solid #C70101;
+  border-radius: 100%;
+  display: none;
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.arrow-up img {
+  display: block;
+  width: 16px;
+  height: 35px;
+  -webkit-transform: rotateZ(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotateZ(90deg);
+  margin: 0 auto;
 }
 
 @media (max-width: 1199px) {

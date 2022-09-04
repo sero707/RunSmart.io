@@ -121,7 +121,7 @@ $(document).ready(function(){
       e.preventDefault();
       $.ajax({
         type: "POST",
-        url: "../files/mailer/smart.php",
+        url: "files/mailer/smart.php",
         data: $(this).serialize()
       }).done(function(){
         $(this).find("input").val("");
@@ -131,7 +131,18 @@ $(document).ready(function(){
       });
       return false;
     });
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 1600){
+        $('.arrow-up').fadeIn('slow');
+      } else {
+        $('.arrow-up').fadeOut();
+      }
+    });
 
-
+    $("a[href^='#']").click(function(){
+      var _href = $(this).attr("href");
+      $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+      return false;
+    });
   });
   
