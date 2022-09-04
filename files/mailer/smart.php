@@ -3,6 +3,8 @@
 $name = $_POST['name'];
 $phone = $_POST['telephone'];
 $email = $_POST['email'];
+$order = $_POST['modal_order'];
+
 
 require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
@@ -30,7 +32,8 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 $mail->Subject = 'Данные';
 $mail->Body    = '
-		Пользователь оставил данные <br> 
+		Пользователь оставил данные <br>
+	Товар: '. $order .' <br>
 	Имя: ' . $name . ' <br>
 	Номер телефона: ' . $phone . '<br>
 	E-mail: ' . $email . '';
