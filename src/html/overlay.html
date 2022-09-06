@@ -9,6 +9,7 @@
                 <input name="telephone" placeholder="Ваш телефон">
                 <input type="email" name="email" placeholder="Ваш E-mail">
                 <button class="button button_form">Заказать консультацию</button>
+                <input type="hidden" name="form-name" value="Консультация">
             </form>
         </div>
     </div>
@@ -18,11 +19,12 @@
         <div class="modal__description">Пульсометр Polar FT1</div>
         <div class="call-back-forma">
             <form id="order-form" action="#">
-                <input id="modal__description" type="hidden" name="modal_order" class="modal__description valid" aria-invalid="false">
                 <input type="text" required name="name" placeholder="Ваше имя">
                 <input required name="telephone" placeholder="Ваш телефон">
                 <input type="email" required name="email" placeholder="Ваш E-mail">
                 <button class="button button_form">Купить</button>
+                <input type="hidden" name="order-des" class="order-form" value="Polar FT1">
+                <input type="hidden" name="form-name" value="Заказ">
             </form>
         </div>
     </div>
