@@ -1,5 +1,10 @@
 .footer{
     position: relative;
+    iframe{
+        width: 100vw;
+        height: 630px;
+        border: none;
+    }
     &__info{
         background-color: $main-color;
         max-width: 460px;
