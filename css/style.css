@@ -707,6 +707,12 @@
   position: relative;
 }
 
+.footer iframe {
+  width: 100vw;
+  height: 630px;
+  border: none;
+}
+
 .footer__info {
   background-color: #C70101;
   max-width: 460px;
